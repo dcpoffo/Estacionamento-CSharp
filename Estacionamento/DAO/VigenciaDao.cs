@@ -134,10 +134,13 @@ namespace Estacionamento.DAO
                             Id = dr.GetInt32("id"),
                             VigenciaInicial = dr.GetDateTime("vigenciaInicial"),
                             VigenciaFinal = dr.GetDateTime("vigenciaFinal"),
-                        });                       
+                        });
+                        var inicial = dr.GetDateTime("vigenciaInicial");
+                        var final = dr.GetDateTime("vigenciaFinal");
 
-                        if (_dataInicial >= dr.GetDateTime("vigenciaInicial") && (_dataFinal <= dr.GetDateTime("vigenciaFinal"))
-                        || (_dataFinal >= dr.GetDateTime("vigenciaInicial") && (_dataFinal <= dr.GetDateTime("vigenciaFinal"))))
+                        if ((_dataInicial >= inicial && (_dataFinal <= final))
+                        || ((_dataFinal >= inicial && (_dataFinal <= final)))
+                        || (_dataInicial == final) || (_dataFinal <= inicial))
                         {
                             return true;
                         }

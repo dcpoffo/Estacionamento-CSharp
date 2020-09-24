@@ -32,6 +32,5 @@ C:\Sistemas\Estacionamento\Estacionamento\bin\Debug\System.Runtime.CompilerServi
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.csproj.CopyComplete
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.exe
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.pdb
-C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.csprojAssemblyReference.cache
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.Telas.frmEstacionamento.resources
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.Telas.frmEntradaEstacionamento.resources

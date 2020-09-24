@@ -155,7 +155,7 @@ namespace Estacionamento.Telas
                 return false;
             }
 
-            if (dtpVigenciaInicial.Value < DateTime.Now)
+            if (dtpVigenciaInicial.Value.Date < DateTime.Now.Date)
             {
                 MessageBox.Show($"Você não pode cadastrar uma Vigência com Data Inicial menor que hoje! ", "Erro",
                     MessageBoxButtons.OK,
