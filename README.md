@@ -2,7 +2,7 @@
 ### Sistema de Controle de Estacionamento feito para teste de Programação C#
 
 ### Este sistema utiliza banco de dados MySQL
-Para a criação da base de dados, deve ser executado o script (Base.sql) da pasta SQL. Eu uso o MySQL Workbench 8.0 CE.
+Para a criação da base de dados, deve ser executado o script (Base.sql) da pasta SQL.
 ```
 CREATE DATABASE  IF NOT EXISTS `estaciona`;
 USE `estaciona`;
