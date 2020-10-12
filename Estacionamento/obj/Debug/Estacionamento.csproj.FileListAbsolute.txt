@@ -34,3 +34,4 @@ C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.exe
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.pdb
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.Telas.frmEstacionamento.resources
 C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.Telas.frmEntradaEstacionamento.resources
+C:\Sistemas\Estacionamento\Estacionamento\obj\Debug\Estacionamento.csprojAssemblyReference.cache

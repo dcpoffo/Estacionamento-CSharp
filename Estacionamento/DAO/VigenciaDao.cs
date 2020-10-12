@@ -41,28 +41,6 @@ namespace Estacionamento.DAO
             }
         }
 
-        public bool ProcurarData(DateTime data)
-        {
-            try
-            {
-                con.AbrirConexao();
-
-                sql = new MySqlCommand("select id from tabelaPreco where id = @id", con.con);
-                sql.Parameters.AddWithValue("id", data);
-                sql.ExecuteNonQuery();
-                con.FecharConexao();
-                return true;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro\n" + ex.Message, "ERRO",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error);
-                con.FecharConexao();
-                return false;
-            }
-        }
-
         public bool Alterar(Vigencia dado)
         {
             try
@@ -195,32 +173,3 @@ namespace Estacionamento.DAO
         }
     }
 }
-
-//try
-//{
-//    con.AbrirConexao();
-//    sql = new MySqlCommand("select id from tabelaPreco " +
-//        "where (vigenciaInicial between @dataInicial and @dataFinal) " +
-//        "or (vigenciaFinal between @dataInicial and @dataFinal)", con.con);
-//    sql.Parameters.AddWithValue("@dataInicial", dataInicial);
-//    sql.Parameters.AddWithValue("@dataFinal", dataFinal);
-
-//    MySqlDataReader dr;
-//    dr = sql.ExecuteReader();
-//    if (dr.HasRows)
-//    {
-//        return true;
-//    }
-//    else
-//    {
-//        return false;
-//    }
-//}
-//catch (Exception)
-//{
-//    throw;
-//}
-//finally
-//{
-//    con.FecharConexao();
-//}

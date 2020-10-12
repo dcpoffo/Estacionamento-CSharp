@@ -84,11 +84,14 @@
             // 
             // btnSalvarEntrada
             // 
-            this.btnSalvarEntrada.Location = new System.Drawing.Point(56, 120);
+            this.btnSalvarEntrada.Image = global::Estacionamento.Properties.Resources._checked;
+            this.btnSalvarEntrada.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarEntrada.Location = new System.Drawing.Point(40, 120);
             this.btnSalvarEntrada.Name = "btnSalvarEntrada";
-            this.btnSalvarEntrada.Size = new System.Drawing.Size(111, 37);
+            this.btnSalvarEntrada.Size = new System.Drawing.Size(142, 46);
             this.btnSalvarEntrada.TabIndex = 18;
             this.btnSalvarEntrada.Text = "Salvar Entrada";
+            this.btnSalvarEntrada.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSalvarEntrada.UseVisualStyleBackColor = true;
             this.btnSalvarEntrada.Click += new System.EventHandler(this.btnSalvarEntrada_Click);
             // 
@@ -96,7 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(227, 162);
+            this.ClientSize = new System.Drawing.Size(227, 169);
             this.Controls.Add(this.btnSalvarEntrada);
             this.Controls.Add(this.txtPlaca);
             this.Controls.Add(this.label3);

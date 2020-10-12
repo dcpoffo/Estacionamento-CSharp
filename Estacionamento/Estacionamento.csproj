@@ -181,5 +181,8 @@
   <ItemGroup>
     <None Include="parking.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="checked.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

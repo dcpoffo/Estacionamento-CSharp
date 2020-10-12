@@ -38,18 +38,6 @@ namespace Estacionamento.Model
             }
         }
 
-        public bool ProcurarData(DateTime data)
-        {
-            if (dao.ProcurarData(data))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
         public bool VerificaDataCadastrada(DateTime dataInicial, DateTime dataFinal)
         {
             if (dao.VerificaDataCadastrada(dataInicial, dataFinal))
